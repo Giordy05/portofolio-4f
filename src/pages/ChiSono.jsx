@@ -1,7 +1,9 @@
 import React from 'react';
- const ChiSono = ( ) =>{
+
+const ChiSono = ( ) => {
     return(
-        <h1>CHISONO</h1>
+        <h1>CHI SONO</h1>
     )
- }
+}
+
 export default ChiSono;

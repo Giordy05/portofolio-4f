@@ -10,6 +10,7 @@ const Footer= () =>{
                 <div>Sezione 4</div>
             </div>
         </footer>
-    );
+    )
 };
+
 export default Footer;

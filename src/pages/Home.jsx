@@ -1,7 +1,14 @@
 import React from 'react';
- const Home = ( ) =>{
+import SectionFlex from '../components/SectionFlex';
+import Slider from '../components/Slider'
+
+const Home = ( ) => {
     return(
-        <h1>HOME</h1>
+        <div id='home'>
+            <Slider />
+            <SectionFlex />
+        </div>
     )
- }
+ };
+
 export default Home;

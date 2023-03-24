@@ -19,21 +19,59 @@ footer .footer-container {
 .app-navbar {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  background-color: #131313;
+  color: #f8f8f8;
   align-items: center;
   padding: 1rem 2rem;
 }
-.app-navbar .navbar-items {
+
+.navbar-items {
   display: flex;
   list-style: none;
   gap: 2rem;
+  align-items: center;
 }
-.app-navbar .navbar-items .nav-links {
+.navbar-items .nav-links {
   text-decoration: none;
-  color: grey;
+  color: #dad7cd;
 }
-.app-navbar .navbar-items .nav-links:hover {
+.navbar-items .nav-links:hover {
   color: #f8f8f8;
   font-size: 20px;
+}
+
+.section {
+  background-color: whitesmoke;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.item {
+  background-color: #f8f8f8;
+  max-width: 25rem;
+}
+.item img {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.item .item-text {
+  padding: 1.5rem;
+}
+
+#home {
+  flex-grow: 1;
+}
+
+.swiper-slide {
+  height: 30rem !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=App.css.map */
